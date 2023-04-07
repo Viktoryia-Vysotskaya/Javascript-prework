@@ -44,6 +44,7 @@ function playGame(playerInput) {
     }*/
 
     printMessage('Twój ruch to: ' + argPlayerMove);
+}
 
     function displayResult(argComputerMove, argPlayerMove) {
         printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
