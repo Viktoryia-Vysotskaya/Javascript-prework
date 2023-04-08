@@ -52,7 +52,8 @@
     printMessage('Twój ruch to: ' + argPlayerMove);
 
 
-    function displayResult(argComputerMove, argPlayerMove) {
+    /*function displayResult(argComputerMove, argPlayerMove) {*/
+    const displayResult = function (argComputerMove, argPlayerMove) {
         printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
         console.log('ruch komputera:' + argComputerMove, 'ruch gracza:' + argPlayerMove);
         if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
