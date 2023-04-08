@@ -15,8 +15,9 @@
     }
 
 
-    let randomNumber = Math.floor(Math.random() * 3 + 1);
-    
+    /*let randomNumber = Math.floor(Math.random() * 3 + 1);*/
+    const randomNumber = Math.floor(Math.random() * 3 + 1);
+
     console.log('Wylosowana liczba to: ' + randomNumber);
 
     let argComputerMove = getMoveName(randomNumber);
