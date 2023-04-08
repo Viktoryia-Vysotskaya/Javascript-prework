@@ -112,7 +112,8 @@ function scissorsClicked() {
     playGame(3);
 }
 
-let playScissors = document.getElementById('play-scissors');
+/*let playScissors = document.getElementById('play-scissors');*/
+const playScissors = document.getElementById('play-scissors');
 
 playScissors.addEventListener('click', scissorsClicked);
 
