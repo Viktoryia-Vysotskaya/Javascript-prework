@@ -1,5 +1,6 @@
 {
-    function playGame(playerInput) {
+    /*function playGame(playerInput) {*/
+    const playGame = function(playerInput) {
     clearMessages();
 
     /*function getMoveName(argMoveId) {*/
@@ -90,7 +91,8 @@
 }
 
 
-function rockClicked() {
+/*function rockClicked() {*/
+const rockClicked = function(){
     playGame(1);
 }
 
