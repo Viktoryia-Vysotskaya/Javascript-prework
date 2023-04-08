@@ -102,7 +102,8 @@ const playRock = document.getElementById('play-rock');
 playRock.addEventListener('click', rockClicked);
 
 
-function paperClicked() {
+/*function paperClicked() {*/
+const paperClicked = function(){
     playGame(2);
 }
 
