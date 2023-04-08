@@ -1,4 +1,5 @@
-function playGame(playerInput) {
+{
+    function playGame(playerInput) {
     clearMessages();
 
     function getMoveName(argMoveId) {
@@ -13,8 +14,9 @@ function playGame(playerInput) {
         return 'nieznany ruch';
     }
 
-    let randomNumber = Math.floor(Math.random() * 3 + 1);
 
+    let randomNumber = Math.floor(Math.random() * 3 + 1);
+    
     console.log('Wylosowana liczba to: ' + randomNumber);
 
     let argComputerMove = getMoveName(randomNumber);
@@ -44,7 +46,7 @@ function playGame(playerInput) {
     }*/
 
     printMessage('Twój ruch to: ' + argPlayerMove);
-}
+
 
     function displayResult(argComputerMove, argPlayerMove) {
         printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
@@ -75,9 +77,11 @@ function playGame(playerInput) {
             printMessage('Nieznany ruch!');
 
     }
+}
     console.log('wynik funkcji:' + displayResult);
     
     displayResult(argComputerMove, argPlayerMove);
+    
 }
 
 
@@ -106,3 +110,5 @@ function scissorsClicked() {
 let playScissors = document.getElementById('play-scissors');
 
 playScissors.addEventListener('click', scissorsClicked);
+
+}
