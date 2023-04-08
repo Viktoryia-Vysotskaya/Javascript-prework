@@ -92,7 +92,8 @@ function rockClicked() {
     playGame(1);
 }
 
-let playRock = document.getElementById('play-rock');
+/*let playRock = document.getElementById('play-rock');*/
+const playRock = document.getElementById('play-rock');
 
 playRock.addEventListener('click', rockClicked);
 
