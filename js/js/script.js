@@ -102,7 +102,8 @@ function paperClicked() {
     playGame(2);
 }
 
-let playPaper = document.getElementById('play-paper');
+/*let playPaper = document.getElementById('play-paper');*/
+const playPaper = document.getElementById('play-paper');
 
 playPaper.addEventListener('click', paperClicked);
 
