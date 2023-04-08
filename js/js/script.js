@@ -37,7 +37,8 @@
 
     console.log('Gracz wpisał: ' + playerInput);
 
-    let argPlayerMove = getMoveName(playerInput);
+    /*let argPlayerMove = getMoveName(playerInput);*/
+    const argPlayerMove = getMoveName(playerInput);
 
     /*if (playerInput == '1') {
         playerMove = 'kamień';
