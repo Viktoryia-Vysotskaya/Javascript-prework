@@ -113,7 +113,8 @@ const playPaper = document.getElementById('play-paper');
 playPaper.addEventListener('click', paperClicked);
 
 
-function scissorsClicked() {
+/*function scissorsClicked() {*/
+const scissorsClicked = function(){
     playGame(3);
 }
 
